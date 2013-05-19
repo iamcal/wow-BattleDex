@@ -1,0 +1,10 @@
+## Interface: 50200
+## Title : BattleDex
+## Notes: Track Pet Battles
+## Author: Cal Henderson (Bees on Hyjal-US)
+## Version: 1.0
+## Dependencies: 
+## SavedVariablesPerCharacter: BattleDexPrefs
+## SavedVariables: BattleDexDB
+
+BattleDex.lua
