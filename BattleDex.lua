@@ -101,7 +101,8 @@ function BattleDex.AlterTooltip()
 		--GameTooltip:AddLine(string.format("%d / %d / %d", pri, qul, v));
 
 		counts[pri] = counts[pri] or {};
-		counts[pri][qul] = v;
+		counts[pri][qul] = counts[pri][qul] or 0;
+		counts[pri][qul] = counts[pri][qul] + v;
 	end
 
 	-- colors
